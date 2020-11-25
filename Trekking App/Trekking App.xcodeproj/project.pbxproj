@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D5F504256E4D22003BDFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F503256E4D22003BDFD9 /* AppDelegate.swift */; };
+		D2D5F506256E4D22003BDFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F505256E4D22003BDFD9 /* SceneDelegate.swift */; };
+		D2D5F508256E4D22003BDFD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F507256E4D22003BDFD9 /* ViewController.swift */; };
+		D2D5F50B256E4D22003BDFD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F509256E4D22003BDFD9 /* Main.storyboard */; };
+		D2D5F50D256E4D23003BDFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F50C256E4D23003BDFD9 /* Assets.xcassets */; };
+		D2D5F510256E4D23003BDFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F50E256E4D23003BDFD9 /* LaunchScreen.storyboard */; };
+		D2D5F51B256E4D24003BDFD9 /* Trekking_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F51A256E4D24003BDFD9 /* Trekking_AppTests.swift */; };
+		D2D5F526256E4D24003BDFD9 /* Trekking_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F525256E4D24003BDFD9 /* Trekking_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2D5F517256E4D24003BDFD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D5F4F8256E4D22003BDFD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D5F4FF256E4D22003BDFD9;
+			remoteInfo = "Trekking App";
+		};
+		D2D5F522256E4D24003BDFD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2D5F4F8256E4D22003BDFD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D5F4FF256E4D22003BDFD9;
+			remoteInfo = "Trekking App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2D5F500256E4D22003BDFD9 /* Trekking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trekking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D5F503256E4D22003BDFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2D5F505256E4D22003BDFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2D5F507256E4D22003BDFD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2D5F50A256E4D22003BDFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2D5F50C256E4D23003BDFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2D5F50F256E4D23003BDFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2D5F511256E4D23003BDFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D5F516256E4D24003BDFD9 /* Trekking AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trekking AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D5F51A256E4D24003BDFD9 /* Trekking_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trekking_AppTests.swift; sourceTree = "<group>"; };
+		D2D5F51C256E4D24003BDFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D5F521256E4D24003BDFD9 /* Trekking AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trekking AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D5F525256E4D24003BDFD9 /* Trekking_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trekking_AppUITests.swift; sourceTree = "<group>"; };
+		D2D5F527256E4D24003BDFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2D5F4FD256E4D22003BDFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5F513256E4D24003BDFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5F51E256E4D24003BDFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2D5F4F7256E4D22003BDFD9 = {
+			isa = PBXGroup;
+			children = (
+				D2D5F502256E4D22003BDFD9 /* Trekking App */,
+				D2D5F519256E4D24003BDFD9 /* Trekking AppTests */,
+				D2D5F524256E4D24003BDFD9 /* Trekking AppUITests */,
+				D2D5F501256E4D22003BDFD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2D5F501256E4D22003BDFD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F500256E4D22003BDFD9 /* Trekking App.app */,
+				D2D5F516256E4D24003BDFD9 /* Trekking AppTests.xctest */,
+				D2D5F521256E4D24003BDFD9 /* Trekking AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2D5F502256E4D22003BDFD9 /* Trekking App */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F503256E4D22003BDFD9 /* AppDelegate.swift */,
+				D2D5F505256E4D22003BDFD9 /* SceneDelegate.swift */,
+				D2D5F507256E4D22003BDFD9 /* ViewController.swift */,
+				D2D5F509256E4D22003BDFD9 /* Main.storyboard */,
+				D2D5F50C256E4D23003BDFD9 /* Assets.xcassets */,
+				D2D5F50E256E4D23003BDFD9 /* LaunchScreen.storyboard */,
+				D2D5F511256E4D23003BDFD9 /* Info.plist */,
+			);
+			path = "Trekking App";
+			sourceTree = "<group>";
+		};
+		D2D5F519256E4D24003BDFD9 /* Trekking AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F51A256E4D24003BDFD9 /* Trekking_AppTests.swift */,
+				D2D5F51C256E4D24003BDFD9 /* Info.plist */,
+			);
+			path = "Trekking AppTests";
+			sourceTree = "<group>";
+		};
+		D2D5F524256E4D24003BDFD9 /* Trekking AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F525256E4D24003BDFD9 /* Trekking_AppUITests.swift */,
+				D2D5F527256E4D24003BDFD9 /* Info.plist */,
+			);
+			path = "Trekking AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D5F4FF256E4D22003BDFD9 /* Trekking App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D5F52A256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking App" */;
+			buildPhases = (
+				D2D5F4FC256E4D22003BDFD9 /* Sources */,
+				D2D5F4FD256E4D22003BDFD9 /* Frameworks */,
+				D2D5F4FE256E4D22003BDFD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trekking App";
+			productName = "Trekking App";
+			productReference = D2D5F500256E4D22003BDFD9 /* Trekking App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2D5F515256E4D24003BDFD9 /* Trekking AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D5F52D256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking AppTests" */;
+			buildPhases = (
+				D2D5F512256E4D24003BDFD9 /* Sources */,
+				D2D5F513256E4D24003BDFD9 /* Frameworks */,
+				D2D5F514256E4D24003BDFD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D5F518256E4D24003BDFD9 /* PBXTargetDependency */,
+			);
+			name = "Trekking AppTests";
+			productName = "Trekking AppTests";
+			productReference = D2D5F516256E4D24003BDFD9 /* Trekking AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2D5F520256E4D24003BDFD9 /* Trekking AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D5F530256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking AppUITests" */;
+			buildPhases = (
+				D2D5F51D256E4D24003BDFD9 /* Sources */,
+				D2D5F51E256E4D24003BDFD9 /* Frameworks */,
+				D2D5F51F256E4D24003BDFD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2D5F523256E4D24003BDFD9 /* PBXTargetDependency */,
+			);
+			name = "Trekking AppUITests";
+			productName = "Trekking AppUITests";
+			productReference = D2D5F521256E4D24003BDFD9 /* Trekking AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2D5F4F8256E4D22003BDFD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D2D5F4FF256E4D22003BDFD9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D2D5F515256E4D24003BDFD9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D2D5F4FF256E4D22003BDFD9;
+					};
+					D2D5F520256E4D24003BDFD9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D2D5F4FF256E4D22003BDFD9;
+					};
+				};
+			};
+			buildConfigurationList = D2D5F4FB256E4D22003BDFD9 /* Build configuration list for PBXProject "Trekking App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2D5F4F7256E4D22003BDFD9;
+			productRefGroup = D2D5F501256E4D22003BDFD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D5F4FF256E4D22003BDFD9 /* Trekking App */,
+				D2D5F515256E4D24003BDFD9 /* Trekking AppTests */,
+				D2D5F520256E4D24003BDFD9 /* Trekking AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2D5F4FE256E4D22003BDFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5F510256E4D23003BDFD9 /* LaunchScreen.storyboard in Resources */,
+				D2D5F50D256E4D23003BDFD9 /* Assets.xcassets in Resources */,
+				D2D5F50B256E4D22003BDFD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5F514256E4D24003BDFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5F51F256E4D24003BDFD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2D5F4FC256E4D22003BDFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5F508256E4D22003BDFD9 /* ViewController.swift in Sources */,
+				D2D5F504256E4D22003BDFD9 /* AppDelegate.swift in Sources */,
+				D2D5F506256E4D22003BDFD9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5F512256E4D24003BDFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5F51B256E4D24003BDFD9 /* Trekking_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D5F51D256E4D24003BDFD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D5F526256E4D24003BDFD9 /* Trekking_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2D5F518256E4D24003BDFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D5F4FF256E4D22003BDFD9 /* Trekking App */;
+			targetProxy = D2D5F517256E4D24003BDFD9 /* PBXContainerItemProxy */;
+		};
+		D2D5F523256E4D24003BDFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2D5F4FF256E4D22003BDFD9 /* Trekking App */;
+			targetProxy = D2D5F522256E4D24003BDFD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2D5F509256E4D22003BDFD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D5F50A256E4D22003BDFD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2D5F50E256E4D23003BDFD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D5F50F256E4D23003BDFD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2D5F528256E4D24003BDFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2D5F529256E4D24003BDFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2D5F52B256E4D24003BDFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBJAQ3G7S5;
+				INFOPLIST_FILE = "Trekking App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anhlv.trekkingApp.Trekking-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2D5F52C256E4D24003BDFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBJAQ3G7S5;
+				INFOPLIST_FILE = "Trekking App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anhlv.trekkingApp.Trekking-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2D5F52E256E4D24003BDFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBJAQ3G7S5;
+				INFOPLIST_FILE = "Trekking AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anhlv.trekkingApp.Trekking-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trekking App.app/Trekking App";
+			};
+			name = Debug;
+		};
+		D2D5F52F256E4D24003BDFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBJAQ3G7S5;
+				INFOPLIST_FILE = "Trekking AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anhlv.trekkingApp.Trekking-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trekking App.app/Trekking App";
+			};
+			name = Release;
+		};
+		D2D5F531256E4D24003BDFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBJAQ3G7S5;
+				INFOPLIST_FILE = "Trekking AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anhlv.trekkingApp.Trekking-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trekking App";
+			};
+			name = Debug;
+		};
+		D2D5F532256E4D24003BDFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DBJAQ3G7S5;
+				INFOPLIST_FILE = "Trekking AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anhlv.trekkingApp.Trekking-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trekking App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2D5F4FB256E4D22003BDFD9 /* Build configuration list for PBXProject "Trekking App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5F528256E4D24003BDFD9 /* Debug */,
+				D2D5F529256E4D24003BDFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D5F52A256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5F52B256E4D24003BDFD9 /* Debug */,
+				D2D5F52C256E4D24003BDFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D5F52D256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5F52E256E4D24003BDFD9 /* Debug */,
+				D2D5F52F256E4D24003BDFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D5F530256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2D5F531256E4D24003BDFD9 /* Debug */,
+				D2D5F532256E4D24003BDFD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2D5F4F8256E4D22003BDFD9 /* Project object */;
+}
