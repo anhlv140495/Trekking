@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Trekking App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Alamofire'
+  pod 'SnapKit'
+  pod 'DropDown'
+  pod 'Gallery'
+  pod 'BetterSegmentedControl'
+  pod 'ActionSheetPicker-3.0'
+  pod 'LKAlertController'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'SVPinView', '~> 1.0'
+  pod 'ImageViewer.swift', '~> 3.0'
+  pod 'ImageViewer.swift/Fetcher', '~> 3.0'
+  pod 'ObjectMapper'
+  pod 'ImageSlideshow', '~> 1.6'
+  pod 'ACProgressHUD-Swift'
+  pod 'SDWebImage'
+  pod 'PopupDialog'
+
+  # Pods for Trekking App
+
+  target 'Trekking AppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Trekking AppUITests' do
+    # Pods for testing
+  end
+
+end

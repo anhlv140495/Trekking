@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="142" id="oxg-LZ-vKq" customClass="PostItemViewCell" customModule="Sổ_tay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oxg-LZ-vKq" id="Gmb-qd-e0E">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_demo2" translatesAutoresizingMaskIntoConstraints="NO" id="rpg-fy-au0">
+                        <rect key="frame" x="10" y="16" width="143" height="76"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="143" id="P7i-GU-Ltp"/>
+                            <constraint firstAttribute="height" constant="76" id="tij-71-ndz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vườn quốc gia Phong Nha Kẻ Bàng – Di sản thiên nhiên thế giới" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1EB-bc-hTJ">
+                        <rect key="frame" x="168" y="16" width="241" height="33.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20/20/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68N-t7-t4Z">
+                        <rect key="frame" x="168" y="82.5" width="67" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2mm-97-88c">
+                        <rect key="frame" x="0.0" y="107" width="414" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Xoy-oA-YuK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2mm-97-88c" firstAttribute="leading" secondItem="Gmb-qd-e0E" secondAttribute="leading" id="51g-Ay-Tcd"/>
+                    <constraint firstItem="1EB-bc-hTJ" firstAttribute="top" secondItem="Gmb-qd-e0E" secondAttribute="top" constant="16" id="7Di-Gz-bfJ"/>
+                    <constraint firstAttribute="bottom" secondItem="2mm-97-88c" secondAttribute="bottom" id="7XA-1x-npT"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="68N-t7-t4Z" secondAttribute="bottom" id="Cad-Mj-m5j"/>
+                    <constraint firstAttribute="bottom" secondItem="rpg-fy-au0" secondAttribute="bottom" constant="16" id="JtS-sd-48B"/>
+                    <constraint firstItem="rpg-fy-au0" firstAttribute="top" secondItem="Gmb-qd-e0E" secondAttribute="top" constant="16" id="OG2-74-7bu"/>
+                    <constraint firstAttribute="trailing" secondItem="1EB-bc-hTJ" secondAttribute="trailing" constant="5" id="Otm-U1-Rxy"/>
+                    <constraint firstItem="1EB-bc-hTJ" firstAttribute="leading" secondItem="rpg-fy-au0" secondAttribute="trailing" constant="15" id="alZ-me-hj0"/>
+                    <constraint firstItem="rpg-fy-au0" firstAttribute="leading" secondItem="Gmb-qd-e0E" secondAttribute="leading" constant="10" id="bck-VE-Sv1"/>
+                    <constraint firstAttribute="trailing" secondItem="2mm-97-88c" secondAttribute="trailing" id="e4N-PT-VOs"/>
+                    <constraint firstItem="68N-t7-t4Z" firstAttribute="leading" secondItem="rpg-fy-au0" secondAttribute="trailing" constant="15" id="j6Q-SM-BHo"/>
+                    <constraint firstAttribute="bottom" secondItem="rpg-fy-au0" secondAttribute="bottom" constant="16" id="s8J-tQ-5SR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgHeader" destination="rpg-fy-au0" id="b5J-vk-MKH"/>
+                <outlet property="lbDate" destination="68N-t7-t4Z" id="uYi-ru-grQ"/>
+                <outlet property="lbTitle" destination="1EB-bc-hTJ" id="b4p-cy-kig"/>
+            </connections>
+            <point key="canvasLocation" x="-417.39130434782612" y="-119.19642857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_demo2" width="375" height="200"/>
+    </resources>
+</document>

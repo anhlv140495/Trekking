@@ -1,0 +1,288 @@
+{
+    "found": 15,
+    "mountain": [
+        {
+            "id": 1,
+            "name":"Lùng Cúng",
+            
+            "lat": 21.887763,
+            "lng": 104.2481088,
+            "difficult": 4,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50442158503_645793613d_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50442158503_645793613d_k.jpg"
+,"https://live.staticflickr.com/65535/50443031162_3a8794de5e_k.jpg"
+,"https://live.staticflickr.com/65535/50442158773_49b272ec69_k.jpg"
+,"https://live.staticflickr.com/65535/50442851946_3c90412d09_k.jpg"
+,"https://live.staticflickr.com/65535/50443030557_26861fede0_k.jpg"
+,"https://live.staticflickr.com/65535/50442158078_036a28dfaf_k.jpg"
+,"https://live.staticflickr.com/65535/50443031162_3a8794de5e_k.jpg"
+,"https://live.staticflickr.com/65535/50442158218_cd2bb2958a_k.jpg"],
+ "content":"Đỉnh Lùng Cúng được đặt theo tên một bản làng nằm sâu trong vùng núi hiểm trở bậc nhất tại xã Nậm Có huyện Mù Cang Chải, Yên Bái. Bản Lùng Cúng là địa bàn sinh sống của hơn 300 hộ người Thái, có cả người Kinh. văn hóa đa dạng, sự pha trộn trong kiến trúc, thói quen sinh hoạt và ẩm thực. Người dân tại đây rất thân thiện và hiếu khách.Đỉnh núi Lùng Cúng nằm trên độ cao 2913 m. Quanh năm mây che phủ. Đỉnh núi chìm trong lớp mây bạc, giống như ốc đảo trời giữa biển mây. Những năm gần đây, Lùng Cúng trở nên rất nổi tiếng và là địa điểm săn mây tuyệt nhất của Việt Nam.Chặng đường đến với Lùng Cúng, bạn sẽ được đi qua nhiều bản làng, địa danh đẹp nổi tiếng của Tây Bắc như Khau Phạ, Chế Cu Nha, Thào Chua Chải, Mù Cang Chải, Thung lũng Tả Cổ Y…",
+      "height": "2925 mét",
+      "time" : "Hai ngày một đêm",
+"location"  : "Nằm ở xã Nậm Có, huyện Mù Cang Chải, tỉnh Yên Bái, đỉnh núi Lùng Cúng có độ cao 2913 m, là cung đường tuyệt đẹp để trekking. "
+       
+        },
+{
+            "id": 2,
+            "name":"Lảo thẩn",
+            
+            
+"lat": 22.6105512,
+            "lng": 103.6843057,
+            "difficult": 4,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50440822537_83b5695c27_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50440822537_83b5695c27_k.jpg"
+,"https://live.staticflickr.com/65535/50440822492_caee0281c5_k.jpg"
+,"https://live.staticflickr.com/65535/50440822647_85c1064fcb_k.jpg"
+,"https://live.staticflickr.com/65535/50439951458_e34368db48_k.jpg"
+,"https://live.staticflickr.com/65535/50439951463_8d5b90d3fc_k.jpg"],
+ "content":"Núi Lảo Thẩn được biết đến là nóc nhà của Y Tý nằm trên độ cao 2.862m, thuộc địa phận xã Phìn Hồ, huyện Bát Xã, tỉnh Lào Cai. Cái tên Lảo Thẩn - Y Tý rất phổ biển với người dân địa phương và họ thường gọi khi nhắc tới đỉnh núi nhọn hoắt, đứng sừng sững giữa mây trời.Đỉnh núi Lảo Thẩn là sự hòa quyện trọn vẹn giữa mây núi và đất trời nhưng khác với Fansipan đòi hỏi thời gian và sức lực thì Lảo Thẩn được đánh giá là ngọn núi mà ai cũng có thể đặt chân tới.Đúng là leo núi Lảo Thẩn không phải thử thách quá khó khăn, nhưng điều đó không có nghĩa bạn chỉ cần “xách ba lô lên và đi”. Leo núi hai ngày cho dù địa hình đẹp cũng đòi hỏi bạn phải có sức khỏe, lộ trình rõ ràng, tỉ mỉ và hơn cả là sự chuẩn bị vật dụng đầy đủ.Trước khi đi Trekking Lảo Thần - săn mây Y Tý thì bạn nên trang bị cho mình những kiến thức về đi Trekking, những trạng bị cần chuẩn bị khi đi trekking để có một chuyến chinh phục đỉnh núi Lảo Thần thành công nhé.",
+      "height": "2.862 mét",
+      "time" : "Hai ngày một đêm",
+"location"  : "Cung đường trekking dài 30km đẹp bậc nhất miền Nam bắt đầu từ xã Tà Năng, huyện Đức Trọng, Lâm Đồng băng qua xã Phan Dũng, huyện Tuy Phong, Bình Thuận."
+       
+        },
+{
+            "id": 3,
+            "name":"Tà Năng - Phan Dũng (Lâm Đồng - Bình Thuận",
+            
+            "lat": 11.2348204,
+            "lng": 107.1757012,
+            "difficult": 4,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50440822537_83b5695c27_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50440822537_83b5695c27_k.jpg"
+,"https://live.staticflickr.com/65535/50440822492_caee0281c5_k.jpg"
+,"https://live.staticflickr.com/65535/50440822647_85c1064fcb_k.jpg"
+,"https://live.staticflickr.com/65535/50439951458_e34368db48_k.jpg"
+,"https://live.staticflickr.com/65535/50439951463_8d5b90d3fc_k.jpg"],
+ "content":"Cách TP.HCM 300 km về phía Đông Bắc, Tà Năng – Phan Dũng là cung đường dài hơn 55 km đi qua cả ba tỉnh Lâm Đồng, Ninh Thuận và Bình Thuận. Tà Năng thuộc huyện Đức Trọng tỉnh Lâm Đồng, Phan Dũng lại toạ lạc ở huyện Tuy Phong tỉnh Bình Thuận. Tuy thuộc hai tỉnh khác nhau nhưng lại thuộc cùng khu bảo tồn thiên nhiên Kalon sông Mao. Với địa hình trải dài thế này, thảm thực vật và khí hậu của vùng này trở nên vô cùng đa dạng. Các cao nguyên đồi núi trùng trùng điệp điệp thách thức các trekker nhưng đồng thời cũng gia tăng sự hấp dẫn cho cảnh đẹp nơi đây. Cung đường này là sự kết hợp trùng trùng điệp điệp của các lớp núi và đồi. Địa hình sẽ trải dài ở độ cao 500-1.100m. Và chóp cột mốc 3 tỉnh đánh dấu độ cao 1.701m, trở thành điểm ‘hot’ check-in khoe chiến tích chinh phục của các trekker.",
+      "height": "1.701 mét",
+      "time" : "Hai ngày một đêm",
+"location"  : "Tà Năng - Phan Dũng là cung đường trải dài qua 3 tỉnh Lâm Đồng, Ninh Thuận và Bình Thuận."
+       
+        },
+
+{
+            "id": 4,
+            "name":"Bidoup",
+            
+            "lat": 12.1359158,
+            "lng": 108.5287495,
+            "difficult": 3,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50450954807_78e418afd6_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50450954807_78e418afd6_k.jpg"
+,"https://live.staticflickr.com/65535/50450954977_1b796e8214_k.jpg"
+,"https://live.staticflickr.com/65535/50450087063_601b073dcb_k.jpg"
+,"https://live.staticflickr.com/65535/50450785141_8aab485118_k.jpg"],
+ "content":"Vườn quốc gia nằm trong vùng sinh thái dãy núi Trường Sơn bao gồm hai kiểu rừng là rừng lá kim và rừng thường xanh. là nơi ghi nhận có hơn 1933 loài thực vật có mạch, trong đó có 96 loài đặc hữu và 62 loài quý hiếm được liệt kê trong Sách Đỏ IUCN năm 2009. Hơn 14 loài trong tổng số 33 loài cây lá kim ở Việt Nam có mặt tại đây, trong đó có nhiều loài đặc hữu và quý hiếm như Thông hai lá dẹt (loài được biết đến như là hóa thạch sống), Thông lá dài, thông đỏ, Sam hạt đỏ lá dài, Phong lan cùng nhiều loài nấm..Về động vật, đây là nơi sinh sống của 441 loài động vật có xương sống, 32 loài được liệt kê trong Sách Đỏ IUCN bao gồm nhiều loài động vật quý hiếm như Cu li chậm lùn, Chà vá chân đen, Vượn đen má vàng Nam, vượn má hung, Gấu ngựa, Sói đỏ, Bò tót, Tì linh..Nằm giữa vùng chim đặc hữu Tây Nguyên, vườn quốc gia còn là nơi sinh sống hẹp của Trĩ sao, Trèo cây mỏ vàng, Khướu đầu đen, Khướu đầu xám, Khướu đầu đen má xám, Khướu mỏ dài và Sẻ thông họng vàng.",
+      "height": "2.167mét",
+      "time" : "Hai ngày một đêm",
+"location"  : "Vườn quốc gia Bidoup Núi Bà là một vườn quốc gia nằm ở trung tâm cao nguyên Langbiang, trên địa bàn huyện Lạc Dương và Đam Rông, tỉnh Lâm Đồng, "
+       
+        },
+{
+            "id": 5,
+            "name":"Vườn quốc gia Núi Chúa",
+            
+            "lat": 11.6642762,
+            "lng": 109.1692243,
+            "difficult": 3,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50450724291_68f6b22b20_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50450724291_68f6b22b20_k.jpg"
+,"https://live.staticflickr.com/65535/50450724451_62a7176630_b.jpg"
+,"https://live.staticflickr.com/65535/50450893232_de2b2b08e7_k.jpg"
+,"https://live.staticflickr.com/65535/50450724291_68f6b22b20_k.jpg","https://live.staticflickr.com/65535/50450893107_280928cf9d_k.jpg"],
+ "content":"Vị trí: Vườn quốc gia Núi Chúa nằm phía đông bắc tỉnh Ninh Thuận, thuộc huyện Ninh Hải, cách thành phố Phan Rang – Tháp Chàm chừng 20km. Đặc điểm: Vườn quốc gia Núi Chúa là nơi có hệ sinh thái rừng khô hạn đặc trưng hiếm thấy của Việt Nam được mệnh danh là “Rừng khô hạn châu Phi ở Việt Nam” với nguồn tài nguyên động thực vật phong phú đa dạng về số lượng cũng như chủng loại.Vườn quốc gia Núi Chúa có tài nguyên rừng phong phú, đa dạng, diện tích rừng nguyên sinh khoảng 29.865 ha.Với khí hậu khô hạn, mưa ít, cát bỏng thế nhưng nằm trong quần thể Vườn Quốc gia Núi Chúa, “Hồ treo” trên vách núi đá, mặt hồ có đường kính 70 – 80m, quanh năm có nước trong xanh và nhiều động, thực vật sinh sống. Ven hồ có nhiều vỉa đá nổi nhấp nhô như một “hòn non bộ” do thiên nhiên tạo thành. Len lỏi trên những sườn núi cao, nhiều dòng suối chảy xiết, tung bọt trắng xóa, Suối Lồ Ồ là thắng cảnh nằm giữa vách núi đá với làn nước trong xanh, mát lạnh.Càng lên cao theo dốc núi, cây cối càng trở nên xanh tươi hơn, chủ yếu là cây bụi gai mọc liên kết thành từng mảng. Điều bất ngờ là ở khu vực này còn có một góc rừng mọc toàn là mai. Nấp mình bên khe đá, hút dinh dưỡng của đất khô cằn nhưng tết đến là mai nở vàng rực cả một góc núi, làm ngẩn ngơ những người đi rừng.Ở độ cao 1.000m, quần thể núi Chúa Anh và ba núi Chúa Em nhờ được hứng toàn bộ nước mưa nên nơi đây rất phong phú các loài động thực vật rừng. Núi Chúa Anh có độ cao 1.039m so với mặt biển, nơi có 1.265 loài thực vật bậc cao, đặc hữu quý hiếm; 306 loài động vật hoang dã, trong đó có nhiều loài được ghi vào sách đỏ: như chà vá chân đen, gấu ngựa, gấu chó, beo lửa…",
+      "height": "1.000 mét",
+      "time" : "Hai ngày một đêm",
+"location"  : "Vườn quốc gia Núi Chúa là một vườn quốc gia tại huyện Ninh Hải, tỉnh Ninh Thuận, Việt Nam được thành lập vào năm 2003."
+       
+        },
+{
+            "id": 6,
+            "name":"Núi Bà Đen",
+            
+            "lat": 11.3865997,
+            "lng": 106.1542366,
+            "difficult": 3,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50449965528_edc1f49990_b.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50449965528_edc1f49990_b.jpg"
+,"https://live.staticflickr.com/65535/50450663196_035dd9598c_k.jpg"
+,"https://live.staticflickr.com/65535/50450663151_4a820305a4_k.jpg"
+,"https://live.staticflickr.com/65535/50450832892_fed58e44a0_k.jpg","https://live.staticflickr.com/65535/50449965288_e50bf808cd_k.jpg"],
+ "content":"Núi Bà Đen còn có tên gọi khác là núi Vân Sơn do ngọn núi quanh năm có mây bao phủ, tọa lạc tại tỉnh Tây Ninh với chiều cao trên 900m, sừng sững giữa trời cao, xung quanh chân núi là dải đất bằng phẳng, xanh rì cỏ cây, nhìn từ xa, núi Bà Ðen như một chiếc nón úp trên đồng bằng. Núi Bà Đen thu hút du khách thập phương bởi sự trong lành của thời tiết, sự hùng vĩ của núi đồi, bởi nét hoang sơ, hoang vu, nhưng khống kém phần nên thơ vốn có của thiên nhiên.",
+      "height": "986 mét",
+      "time" : "Đi trong ngày",
+"location"  : "Núi Bà Đen là một ngọn núi nằm trong quần thể di tích văn hóa lịch sử núi Bà Đen, được biết đến bởi phong cảnh hữu tình và nhiều huyền thoại tại Tây Ninh."
+       
+        },
+{
+            "id": 7,
+            "name":"Núi Chứa Chan, Đồng Nai",
+            
+            "lat": 10.9373342,
+            "lng": 107.3678691,
+            "difficult": 3,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50450860092_e5049ac3c9_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50450860092_e5049ac3c9_k.jpg"
+,"https://live.staticflickr.com/65535/50450860127_de7dce0f50_k.jpg"
+,"https://live.staticflickr.com/65535/50449992658_fbd68ac62c_k.jpg"
+,"https://live.staticflickr.com/65535/50450689591_75565fb493_k.jpg","https://live.staticflickr.com/65535/50450689726_edc9ef9ece_k.jpg"],
+ "content":"Núi Chứa Chan còn gọi là núi Gia Ray hay núi Gia Lào thuộc huyện Xuân Lộc, tỉnh Đồng Nai, với độ cao 837 m, là ngọn núi cao thứ hai ở Nam Bộ (sau núi Bà Đen – Tây Ninh). Núi cách Sài Gòn khoảng 100 km, đi dọc theo quốc lộ 1A về hướng Đồng Nai. Có rất nhiều cách để khám phá ngọn núi này, ví như đi theo hướng chùa. Nhưng theo kinh nghiệm leo núi Gia Lào của tụi tớ thì theo đường cột điện để lên đỉnh núi sẽ dễ hơn.Từ trên đỉnh núi, dường như chỉ cách thành phố có một cái ngoái đầu, nơi ánh sáng nhộn nhịp rực rỡ dưới kia, thế nhưng mọi thứ trở nên xa vời. Cũng giống như đang đứng trong bóng tối theo dõi dòng chảy cuộc sống ngoài kia vậy, khi bản thân ta không phải vướng bận điều gì, chỉ ngồi im tận hưởng cuộc sống mà thôi.Không gian yên tĩnh trên đỉnh núi đẩy bọn tớ vảo cái cảm giác thư giãn, không âu lo muộn phiền. Nhanh chóng chuẩn bị củi lửa cho buổi tiệc nướng trước khi trời tối, hai đứa con trai hì hục cố gắng làm lửa từ những cành củi đã ướt, rồi mừng rỡ khi chút lửa le lói hiện ra.",
+      "height": "800 mét",
+      "time" : "Đi trong ngày",
+"location"  : "Núi Chứa Chan còn gọi là núi Gia Ray hay núi Gia Lào thuộc huyện Xuân Lộc, tỉnh Đồng Nai"
+       
+        },
+{
+            "id": 8,
+            "name":"Núi Pu Si Lung",
+            
+            "lat": 22.6258327,
+            "lng": 102.7787452,
+            "difficult": 5,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50450489226_9aa98ee229_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50450489226_9aa98ee229_k.jpg"
+,"https://live.staticflickr.com/65535/50449792488_bc33173e74_h.jpg"
+,"https://live.staticflickr.com/65535/50449792408_334eb38067_k.jpg"
+,"https://live.staticflickr.com/65535/50450489391_81c85951b8_k.jpg","https://live.staticflickr.com/65535/50450489311_1a96e70aa1_k.jpg","https://live.staticflickr.com/65535/50450489271_f4a00a5104_k.jpg"],
+ "content":"Pu Si Lung thuộc địa phận xã Pa Vệ Sử, huyện Mường Tè, tỉnh Lai Châu. Tọa độ địa lý được xác định tại…. Ngọn núi nằm ngay trên đường biên giới giữa Việt Nam và Trung Quốc. Từ Pu Si Lung đến đỉnh Fansipan khoảng 300km. Đỉnh cao nhất tại Pu Si Lung cao 3.076m. Trong bảng xếp hạng 10 đỉnh núi cao nhất Việt Nam, Pu Si Lung xếp thứ 3. Đây là ngọn núi cao nhất tại khu vực biên giới phía Bắc. Đứng trên đỉnh cột mốc 42, Pu Si Lung như bức tường thành trấn giữ vùng đất, vùng trời Lai Châu.",
+      "height": "3.076 mét",
+      "time" : "Bốn ngày ba đêm",
+"location"  : "Pu Si Lung hay Phu Si Lùng là ngọn núi nằm ở biên giới Việt Nam và Trung Quốc. Phần Việt Nam của núi thuộc xã Pa Vệ Sử, huyện Mường Tè, tỉnh Lai Châu."
+       
+        },
+{
+            "id": 9,
+            "name":"Ky Quan San (Bạch Mộc Lương Tử)",
+            
+            "lat": 22.5075341,
+            "lng": 103.585832,
+            "difficult": 5,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50450627587_cbd089f85c_b.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50450627587_cbd089f85c_b.jpg"
+,"https://live.staticflickr.com/65535/50450459011_a1f471eace_k.jpg"
+,"https://live.staticflickr.com/65535/50450628237_45cd0cfe66_k.jpg"
+,"https://live.staticflickr.com/65535/50450459146_47988158aa_k.jpg","https://live.staticflickr.com/65535/50450628007_87eb5a7b92_k.jpg","https://live.staticflickr.com/65535/50449760873_ee398d09a1_k.jpg"],
+ "content":"Bạch Mộc Lương Tử (hay Ki Quan San) là một trong 4 đỉnh núi cao nhất Việt Nam, nằm giữa hai tỉnh Lai Châu và Lào Cai. Dãy núi Bạch Mộc Lương Tử có địa hình khá hiểm trở, là địa điểm phượt Tây Bắc hấp dẫn được dân phượt khai phá từ 2012. Ngọn cao nhất của dãy núi này cao khoảng 3046m so với mực nước biển. Quãng đường từ chân núi lên tới đỉnh dài khoảng 30km, qua nhiều địa hình khác nhau như đồi trọc, rừng tre nứa, rừng gỗ lớn, rừng trúc lùn cho đến những vách đá cheo leo toàn rêu phủ.Là đỉnh núi cao thứ 4 ở Việt Nam với địa hình khá hiểm trở, thế nên hành trình leo Bạch Mộc Lương Tử không phải là sự lựa chọn thích hợp cho những người sợ độ cao hay dễ nản chí. Tuy nhiên chính sự kì vĩ, hoang sơ nhưng đầy thơ mộng và kì ảo của Bạch Mộc Lương Tử lại là điểm hấp dẫn với những ai đam mê du lịch mạo hiểm, thích thử thách ý chí của bản thân.",
+      "height": "3.038 mét",
+      "time" : "Ba ngày hai đêm",
+"location"  : "Bạch Mộc Lương Tử là tên được khách du lịch đặt cho đỉnh núi cao nhất trong dãy núi Ky Quan San ở ranh giới giữa hai huyện Bát Xát tỉnh Lào Cai và huyện Phong Thổ tỉnh Lai Châu, Việt Nam."
+       
+        },
+{
+            "id": 10,
+            "name":"Tà Chì Nhù",
+            
+            "lat": 21.567346,
+            "lng": 104.3047317,
+            "difficult": 5,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50450576677_8ce987b840_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50450576677_8ce987b840_k.jpg"
+,"https://live.staticflickr.com/65535/50450407456_f236f583b0_k.jpg"
+,"https://live.staticflickr.com/65535/50450407496_5e4bf5ed3b_k.jpg"
+,"https://live.staticflickr.com/65535/50449708803_cc6f57bf0a_k.jpg","https://live.staticflickr.com/65535/50449708623_352bef2217_k.jpg","https://live.staticflickr.com/65535/50449708608_834100641f_k.jpg"],
+ "content":"Tà Chì Nhù là tên gọi của một đỉnh núi thuộc khối núi Pú Luông của dãy núi Hoàng Liên Sơn, đỉnh Tà Chì Nhù có độ cao 2.979m thuộc địa phận huyện Trạm Tấu, Yên Bái. Tà Chì Nhù còn gọi là Phu Song Sung theo cách gọi của dân tộc Thái hay Chung Chua Nhà theo cách gọi của người Mông. Địa hình của ngọn núi khá phức tạp với nhiều dốc cao, một số đoạn gần như dựng đứng. Khí hậu trên núi vô cùng khắc nghiệt, gió mạnh khiến cho quãng đường chinh phục đỉnh núi tương đối vất vả và nhiêu hiểm nguy rình rập. Tuy nguy hiểm và vất vả là thế, nhưng Tà Chì Nhù lại là một trong những địa điểm được các bạn ưa leo núi rất thích để “cưỡi gió – săn mây” và săn những bức ảnh tuyệt đẹp.",
+      "height": "2.979 mét",
+      "time" : "Ba ngày hai đêm",
+"location"  : "Tà Chì Nhù, còn gọi là Phu Song Sung theo cách gọi của người dân tộc Thái hay Chung Chua Nhà theo cách gọi của người dân tộc Mông, là một đỉnh núi nằm trong địa bàn huyện Trạm Tấu, tỉnh Yên Bái, Việt Nam."
+       
+        },
+{
+            "id": 11,
+            "name":"Nhìu Cồ San",
+            
+            "lat": 22.6304653,
+            "lng": 104.3047317,
+            "difficult": 4,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50450393551_257c14356e_h.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50450393551_257c14356e_h.jpg"
+,"https://live.staticflickr.com/65535/50450393581_e8986d418a_k.jpg"
+,"https://live.staticflickr.com/65535/50450393601_7aacd51fc9_k.jpg"
+,"https://live.staticflickr.com/65535/50449694338_98f00d42a4_k.jpg","https://live.staticflickr.com/65535/50450562882_16ad9d40b6_k.jpg","https://live.staticflickr.com/65535/50450562957_628b230ae1_k.jpg"],
+ "content":"Nhìu Cồ San là một đỉnh núi cao nằm ở xã Sàng Ma Sáo, huyện Bát Xát, tỉnh Lào Cai. Đây là ngọn núi cao thứ 9 của Việt Nam, cao 2.965m so với mực nước biển. Nhìu Cồ San vốn nổi tiếng là một cánh rừng già với đầy đủ các loại gỗ quý hàng trăm năm tuổi, nhiều nương thảo quả xanh tốt. Leo Nhìu Cồ San không quá khó nhưng cũng chẳng dễ dàng nếu bạn là người mới bắt đầu leo núi.",
+      "height": "2.965 mét",
+      "time" : "Ba ngày hai đêm",
+"location"  : "Nhìu Cồ San là một đỉnh núi cao nằm ở xã Sàng Ma Sáo, huyện Bát Xát, tỉnh Lào Cai. "
+       
+        }
+
+,
+{
+            "id": 12,
+            "name":"Putaleng",
+            
+            "lat": 22.4333327,
+            "lng": 103.5579119,
+            "difficult": 5,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50440767886_322e8759f7_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50440767886_322e8759f7_k.jpg"
+,"https://live.staticflickr.com/65535/50440077593_b36879180f_k.jpg"
+,"https://live.staticflickr.com/65535/50440767971_49b6fe03a2_k.jpg"
+,"https://live.staticflickr.com/65535/50440077538_bd700b5315_k.jpg","https://live.staticflickr.com/65535/50440947967_5adbbc740e_k.jpg","https://live.staticflickr.com/65535/50440767756_89c400c16b_k.jpg"],
+ "content":"Không giống như Fansipan đã phát triển hệ thống cáp treo cũng như cung cấp nhiều dịch vụ hỗ trợ cho việc leo núi, phục vụ mục đích du lịch và thương mại. Ở Putaleng vẫn còn đúng nghĩa là một cánh rừng già nguyên sinh, sở hữu vẻ đẹp hoang sơ mà bất cứ ai có cơ hội chiêm ngưỡng cũng đều phải say đắm. Trong Putaleng sở hữu hệ thống thảm thực vật, động vật phong phú, đa dạng. Chúng phát triển tốt tươi, tự nhiên và không hề có dấu hiệu bàn tay con người “xâm nhập trái phép”. Sự hoang sơ đó, khi kết hợp cùng vẻ đẹp núi non trùng điệp hùng vĩ, tạo nên bức tranh Putaleng vô cùng rực rỡ. ",
+      "height": "3.049 mét",
+      "time" : "Ba ngày hai đêm",
+"location"  : "Ngọn núi Putaleng cao 3.049 m nằm trong xã Tả Lèng, huyện Tam Đường, tỉnh Lai Châu."
+       
+        },
+{
+            "id": 12,
+            "name":"Chiêu Lầu Thi",
+            
+            "lat": 22.6610671,
+            "lng": 104.6006601,
+            "difficult": 4,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50449677813_531c606683_k.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50449677813_531c606683_k.jpg"
+,"https://live.staticflickr.com/65535/50450546202_250c5b3ea1_k.jpg"
+,"https://live.staticflickr.com/65535/50449677778_01240c094c_k.jpg"
+,"https://live.staticflickr.com/65535/50450378226_9e2a07e962_k.jpg","https://live.staticflickr.com/65535/50449683998_67e6e6c721_k.jpg","https://live.staticflickr.com/65535/50450383776_a6cb1f93d3_k.jpg"],
+ "content":"Chiêu Lầu Thi tên tiếng việt có nghĩa là “Chín tầng thang”. Theo tiếng Hán “Chiêu Lầu” có nghĩa là chín bậc, “thi” là tảng đá to và cao. Tên “Chín tầng thang” chính là đoạn đường leo lên đỉnh núi, ngày xưa được người đời kiến tạo thành những bậc đá lên xuống, từ độ cao hơn 2.300 m lên đến đỉnh cao 2.400 m. Chân núi Chiêu Lầu Thi có 13 xã thuộc huyện Hoàng Su Phì và Xín Mần. Tương truyền rằng, theo người già kể từ khi Pháp xâm lược Việt Nam, định dùng ngọn núi này làm điểm quan sát một vùng rộng lớn. Nên đã thuê đồng bào phá đá mở đường lên đỉnh núi. Pháp thuê thợ là người Hán đục đá từ chân lên đến đỉnh núi bằng 9 bậc thang đá. Ở đây, cũng đã từng tồn tại hoạt động cách mạng của cán bộ Việt Minh từ những năm cách mạng tháng Tám của nước ta. Đây là khu rừng núi cao nguyên sinh tiềm ẩn rất nhiều loài động, thực vật quý hiếm, có nhiều gỗ nguyên sinh có tuổi rêu xanh phủ kín. Nếu trời quang, mây tạnh, bình minh lên, ánh nắng mặt trời len lỏi như rót mật phủ áo giát vàng vào từng vạt núi, thì khung cảnh núi non trùng điệp, biển mây bồng bềnh tạo nên khung cảnh tuyệt đẹp hiếm có của núi Chín Tầng Thang. Dọc theo đường lên núi, bạn có thể thấy những cánh rừng già nguyên sinh với một quần thể thực vật phong phú.",
+      "height": "2.402 mét",
+      "time" : "Hai ngày một đêm",
+"location"  : "Chiêu Lầu Thi (còn gọi là Kiêu Liều Ti) là tên gọi ngọn núi cao thứ 2 của Hà Giang"
+       
+        }
+,
+{
+            "id": 13,
+            "name":"FanSiPan",
+            
+            "lat": 22.3033327,
+            "lng": 103.7662452,
+            "difficult": 4,
+            
+            "featured_image": "https://live.staticflickr.com/65535/50456454408_6373ae3548_b.jpg",
+            "image_urls": ["https://live.staticflickr.com/65535/50456454408_6373ae3548_b.jpg"
+,"https://live.staticflickr.com/65535/50450340801_07c1743212_k.jpg"
+,"https://live.staticflickr.com/65535/50456454323_681eb0a440_b.jpg"
+,"https://live.staticflickr.com/65535/50450340801_07c1743212_k.jpg","https://live.staticflickr.com/65535/50449639863_4f4ef874c2_k.jpg","https://live.staticflickr.com/65535/50450508347_9ce786fc59_b.jpg"],
+ "content":"Đỉnh Phan Xi Păng hiện là điểm hẹn của nhiều nhà leo núi. Việc chinh phục đỉnh núi này có thể được thực hiện qua các tour của các công ty du lịch lữ hành chuyên nghiệp hoặc tự túc với sự dẫn đường của người bản xứ. Lộ trình leo núi có thể bắt đầu từ Hà Nội đến Lào Cai bằng tàu hỏa trên quãng đường dài 333 km; rồi từ Lào Cai lên Sa Pa bằng ô tô qua 38 km; sau đó từ Sa Pa đến đỉnh đèo Trạm Tôn hoặc ít phổ biến hơn là khu du lịch Cát Cát bằng ô tô hoặc xe ôm. Tại đây có số người dân tộc Mông, Dao làm nghề cửu vạn phục vụ khách leo núi đông nhất.",
+      "height": "3.143 mét",
+      "time" : "Hai ngày một đêm",
+"location"  : "Phan Xi Păng, Fansipan, hay Phan Si Păng là ngọn núi cao nhất Việt Nam, cũng là cao nhất trong ba nước Đông Dương nên được mệnh danh là Nóc nhà Đông Dương thuộc dãy núi Hoàng Liên Sơn, cách trung tâm thị xã Sa Pa khoảng 9 km về phía tây nam, nằm giáp hai tỉnh Lào Cai và Lai Châu thuộc vùng Tây bắc Việt Nam."
+       
+        }
+    ],
+    "meta": {
+        "links": {
+            "counts": "https://public-api.wordpress.com/rest/v1.1/sites/183837469/post-counts/post"
+        },
+        "wpcom": true
+    }
+}

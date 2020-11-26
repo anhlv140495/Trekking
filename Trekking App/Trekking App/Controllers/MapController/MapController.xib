@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapController" customModule="Trợ_giúp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="DTS-9S-Ga6"/>
+                <outlet property="viewMaps" destination="Crb-I7-bcI" id="GCt-YN-hmV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Crb-I7-bcI" customClass="GMSMapView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Crb-I7-bcI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3ft-Y2-aJ2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Crb-I7-bcI" secondAttribute="trailing" id="WeR-2g-ofZ"/>
+                <constraint firstItem="Crb-I7-bcI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dTL-Mg-2Fh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Crb-I7-bcI" secondAttribute="bottom" id="rwX-8n-keI"/>
+            </constraints>
+            <point key="canvasLocation" x="-100.00000000000001" y="49.553571428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

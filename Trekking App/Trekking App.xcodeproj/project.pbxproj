@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DB65FF0879073E7C0F23C83 /* Pods_Trekking_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BECDD56525981F5F3723162 /* Pods_Trekking_AppTests.framework */; };
+		A126773D6C420D8AB19D2442 /* Pods_Trekking_App_Trekking_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DBC56A2BC85FEF6479EB70 /* Pods_Trekking_App_Trekking_AppUITests.framework */; };
+		B7FC654D88E4542C3E1DADD6 /* Pods_Trekking_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BB87449E3F4467C1D7F904 /* Pods_Trekking_App.framework */; };
 		D2D5F504256E4D22003BDFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F503256E4D22003BDFD9 /* AppDelegate.swift */; };
 		D2D5F506256E4D22003BDFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F505256E4D22003BDFD9 /* SceneDelegate.swift */; };
 		D2D5F508256E4D22003BDFD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F507256E4D22003BDFD9 /* ViewController.swift */; };
@@ -15,6 +18,45 @@
 		D2D5F510256E4D23003BDFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F50E256E4D23003BDFD9 /* LaunchScreen.storyboard */; };
 		D2D5F51B256E4D24003BDFD9 /* Trekking_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F51A256E4D24003BDFD9 /* Trekking_AppTests.swift */; };
 		D2D5F526256E4D24003BDFD9 /* Trekking_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F525256E4D24003BDFD9 /* Trekking_AppUITests.swift */; };
+		D2D5F566256E4DC1003BDFD9 /* DetailPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F538256E4DC1003BDFD9 /* DetailPostController.swift */; };
+		D2D5F567256E4DC1003BDFD9 /* MountainDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F53A256E4DC1003BDFD9 /* MountainDetailController.swift */; };
+		D2D5F568256E4DC1003BDFD9 /* MountainDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F53B256E4DC1003BDFD9 /* MountainDetailController.xib */; };
+		D2D5F569256E4DC1003BDFD9 /* MenuTrekController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F53D256E4DC1003BDFD9 /* MenuTrekController.xib */; };
+		D2D5F56A256E4DC1003BDFD9 /* MenuTrekController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F53E256E4DC1003BDFD9 /* MenuTrekController.swift */; };
+		D2D5F56B256E4DC1003BDFD9 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F540256E4DC1003BDFD9 /* MapController.swift */; };
+		D2D5F56C256E4DC1003BDFD9 /* MapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F541256E4DC1003BDFD9 /* MapController.xib */; };
+		D2D5F56D256E4DC1003BDFD9 /* HomeTrekController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F543256E4DC1003BDFD9 /* HomeTrekController.xib */; };
+		D2D5F56E256E4DC1003BDFD9 /* HomeTrekController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F544256E4DC1003BDFD9 /* HomeTrekController.swift */; };
+		D2D5F56F256E4DC1003BDFD9 /* ListImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F546256E4DC1003BDFD9 /* ListImageController.swift */; };
+		D2D5F570256E4DC1003BDFD9 /* AlbumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F547256E4DC1003BDFD9 /* AlbumController.swift */; };
+		D2D5F571256E4DC1003BDFD9 /* DataDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F548256E4DC1003BDFD9 /* DataDemo.swift */; };
+		D2D5F572256E4DC1003BDFD9 /* CustomTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F54A256E4DC1003BDFD9 /* CustomTabController.swift */; };
+		D2D5F573256E4DC1003BDFD9 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F54C256E4DC1003BDFD9 /* AlbumModel.swift */; };
+		D2D5F574256E4DC1003BDFD9 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F54D256E4DC1003BDFD9 /* CategoryModel.swift */; };
+		D2D5F575256E4DC1003BDFD9 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F54E256E4DC1003BDFD9 /* PostModel.swift */; };
+		D2D5F576256E4DC1003BDFD9 /* TrekkingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F54F256E4DC1003BDFD9 /* TrekkingModel.swift */; };
+		D2D5F577256E4DC1003BDFD9 /* MountainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F550256E4DC1003BDFD9 /* MountainModel.swift */; };
+		D2D5F578256E4DC1003BDFD9 /* Mountain.json in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F551256E4DC1003BDFD9 /* Mountain.json */; };
+		D2D5F579256E4DC1003BDFD9 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F552256E4DC1003BDFD9 /* JsonModel.swift */; };
+		D2D5F57A256E4DC1003BDFD9 /* TrekStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F554256E4DC1003BDFD9 /* TrekStoryBoard.storyboard */; };
+		D2D5F57B256E4DC1003BDFD9 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F557256E4DC1003BDFD9 /* AlbumCollectionViewCell.swift */; };
+		D2D5F57C256E4DC1003BDFD9 /* AlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F558256E4DC1003BDFD9 /* AlbumCollectionViewCell.xib */; };
+		D2D5F57D256E4DC1003BDFD9 /* PostItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F55A256E4DC1003BDFD9 /* PostItemViewCell.swift */; };
+		D2D5F57E256E4DC1003BDFD9 /* PostItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F55B256E4DC1003BDFD9 /* PostItemViewCell.xib */; };
+		D2D5F57F256E4DC1003BDFD9 /* RoundShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F55D256E4DC1003BDFD9 /* RoundShadowView.swift */; };
+		D2D5F580256E4DC1003BDFD9 /* ShareExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F55F256E4DC1003BDFD9 /* ShareExperienceController.swift */; };
+		D2D5F581256E4DC1003BDFD9 /* ThumbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F561256E4DC1003BDFD9 /* ThumbCell.swift */; };
+		D2D5F582256E4DC1003BDFD9 /* GalleryFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F562256E4DC1003BDFD9 /* GalleryFlowLayout.swift */; };
+		D2D5F583256E4DC1003BDFD9 /* CustomInforWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F564256E4DC1003BDFD9 /* CustomInforWindowViewController.swift */; };
+		D2D5F584256E4DC1003BDFD9 /* CustomInforWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F565256E4DC1003BDFD9 /* CustomInforWindow.xib */; };
+		D2D5F5A5256E5204003BDFD9 /* ConnectApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F5A4256E5204003BDFD9 /* ConnectApi.swift */; };
+		D2D5F5E6256E55D5003BDFD9 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F5E5256E55D5003BDFD9 /* BaseController.swift */; };
+		D2D5F62A256E58F1003BDFD9 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F629256E58F1003BDFD9 /* Contants.swift */; };
+		D2D5F630256E5A21003BDFD9 /* SDWebImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F62F256E5A21003BDFD9 /* SDWebImageSource.swift */; };
+		D2D5F635256E5B02003BDFD9 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F634256E5B02003BDFD9 /* ColorExtension.swift */; };
+		D2D5F63A256E5B54003BDFD9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F639256E5B54003BDFD9 /* Utils.swift */; };
+		D2D5F658256E5DC1003BDFD9 /* PopupAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5F656256E5DC1003BDFD9 /* PopupAlertController.swift */; };
+		D2D5F659256E5DC1003BDFD9 /* PopUpAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D5F657256E5DC1003BDFD9 /* PopUpAlertController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +77,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30BB87449E3F4467C1D7F904 /* Pods_Trekking_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trekking_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BECDD56525981F5F3723162 /* Pods_Trekking_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trekking_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB05F3FC9D193389DF41E3B /* Pods-Trekking App-Trekking AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trekking App-Trekking AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Trekking App-Trekking AppUITests/Pods-Trekking App-Trekking AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A7228F95DD1F86AEE5F08C1 /* Pods-Trekking App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trekking App.release.xcconfig"; path = "Target Support Files/Pods-Trekking App/Pods-Trekking App.release.xcconfig"; sourceTree = "<group>"; };
+		87891A8F644FC0163E874D35 /* Pods-Trekking AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trekking AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Trekking AppTests/Pods-Trekking AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93DBC56A2BC85FEF6479EB70 /* Pods_Trekking_App_Trekking_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trekking_App_Trekking_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0309EC661968F2B3CAE0CD7 /* Pods-Trekking App-Trekking AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trekking App-Trekking AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Trekking App-Trekking AppUITests/Pods-Trekking App-Trekking AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2D5F500256E4D22003BDFD9 /* Trekking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trekking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D5F503256E4D22003BDFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2D5F505256E4D22003BDFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +98,47 @@
 		D2D5F521256E4D24003BDFD9 /* Trekking AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trekking AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D5F525256E4D24003BDFD9 /* Trekking_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trekking_AppUITests.swift; sourceTree = "<group>"; };
 		D2D5F527256E4D24003BDFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D5F538256E4DC1003BDFD9 /* DetailPostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPostController.swift; sourceTree = "<group>"; };
+		D2D5F53A256E4DC1003BDFD9 /* MountainDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainDetailController.swift; sourceTree = "<group>"; };
+		D2D5F53B256E4DC1003BDFD9 /* MountainDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MountainDetailController.xib; sourceTree = "<group>"; };
+		D2D5F53D256E4DC1003BDFD9 /* MenuTrekController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTrekController.xib; sourceTree = "<group>"; };
+		D2D5F53E256E4DC1003BDFD9 /* MenuTrekController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTrekController.swift; sourceTree = "<group>"; };
+		D2D5F540256E4DC1003BDFD9 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		D2D5F541256E4DC1003BDFD9 /* MapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapController.xib; sourceTree = "<group>"; };
+		D2D5F543256E4DC1003BDFD9 /* HomeTrekController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTrekController.xib; sourceTree = "<group>"; };
+		D2D5F544256E4DC1003BDFD9 /* HomeTrekController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTrekController.swift; sourceTree = "<group>"; };
+		D2D5F546256E4DC1003BDFD9 /* ListImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListImageController.swift; sourceTree = "<group>"; };
+		D2D5F547256E4DC1003BDFD9 /* AlbumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumController.swift; sourceTree = "<group>"; };
+		D2D5F548256E4DC1003BDFD9 /* DataDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDemo.swift; sourceTree = "<group>"; };
+		D2D5F54A256E4DC1003BDFD9 /* CustomTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabController.swift; sourceTree = "<group>"; };
+		D2D5F54C256E4DC1003BDFD9 /* AlbumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		D2D5F54D256E4DC1003BDFD9 /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		D2D5F54E256E4DC1003BDFD9 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		D2D5F54F256E4DC1003BDFD9 /* TrekkingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrekkingModel.swift; sourceTree = "<group>"; };
+		D2D5F550256E4DC1003BDFD9 /* MountainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainModel.swift; sourceTree = "<group>"; };
+		D2D5F551256E4DC1003BDFD9 /* Mountain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Mountain.json; sourceTree = "<group>"; };
+		D2D5F552256E4DC1003BDFD9 /* JsonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		D2D5F554256E4DC1003BDFD9 /* TrekStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TrekStoryBoard.storyboard; sourceTree = "<group>"; };
+		D2D5F557256E4DC1003BDFD9 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2D5F558256E4DC1003BDFD9 /* AlbumCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumCollectionViewCell.xib; sourceTree = "<group>"; };
+		D2D5F55A256E4DC1003BDFD9 /* PostItemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostItemViewCell.swift; sourceTree = "<group>"; };
+		D2D5F55B256E4DC1003BDFD9 /* PostItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostItemViewCell.xib; sourceTree = "<group>"; };
+		D2D5F55D256E4DC1003BDFD9 /* RoundShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundShadowView.swift; sourceTree = "<group>"; };
+		D2D5F55F256E4DC1003BDFD9 /* ShareExperienceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareExperienceController.swift; sourceTree = "<group>"; };
+		D2D5F561256E4DC1003BDFD9 /* ThumbCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbCell.swift; sourceTree = "<group>"; };
+		D2D5F562256E4DC1003BDFD9 /* GalleryFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryFlowLayout.swift; sourceTree = "<group>"; };
+		D2D5F564256E4DC1003BDFD9 /* CustomInforWindowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInforWindowViewController.swift; sourceTree = "<group>"; };
+		D2D5F565256E4DC1003BDFD9 /* CustomInforWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomInforWindow.xib; sourceTree = "<group>"; };
+		D2D5F5A4256E5204003BDFD9 /* ConnectApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectApi.swift; sourceTree = "<group>"; };
+		D2D5F5E5256E55D5003BDFD9 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		D2D5F629256E58F1003BDFD9 /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		D2D5F62F256E5A21003BDFD9 /* SDWebImageSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageSource.swift; sourceTree = "<group>"; };
+		D2D5F634256E5B02003BDFD9 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		D2D5F639256E5B54003BDFD9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D2D5F656256E5DC1003BDFD9 /* PopupAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupAlertController.swift; sourceTree = "<group>"; };
+		D2D5F657256E5DC1003BDFD9 /* PopUpAlertController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpAlertController.xib; sourceTree = "<group>"; };
+		D4928C8BC0E5C81850E21EC2 /* Pods-Trekking App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trekking App.debug.xcconfig"; path = "Target Support Files/Pods-Trekking App/Pods-Trekking App.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6FF213047CF95BA0293CAA /* Pods-Trekking AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trekking AppTests.release.xcconfig"; path = "Target Support Files/Pods-Trekking AppTests/Pods-Trekking AppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FC654D88E4542C3E1DADD6 /* Pods_Trekking_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB65FF0879073E7C0F23C83 /* Pods_Trekking_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +162,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A126773D6C420D8AB19D2442 /* Pods_Trekking_App_Trekking_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		875D4E5693E770E5A5746019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BB87449E3F4467C1D7F904 /* Pods_Trekking_App.framework */,
+				93DBC56A2BC85FEF6479EB70 /* Pods_Trekking_App_Trekking_AppUITests.framework */,
+				5BECDD56525981F5F3723162 /* Pods_Trekking_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2D5F4F7256E4D22003BDFD9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +186,8 @@
 				D2D5F519256E4D24003BDFD9 /* Trekking AppTests */,
 				D2D5F524256E4D24003BDFD9 /* Trekking AppUITests */,
 				D2D5F501256E4D22003BDFD9 /* Products */,
+				F7BD14AD66759C67699BEAC0 /* Pods */,
+				875D4E5693E770E5A5746019 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +204,12 @@
 		D2D5F502256E4D22003BDFD9 /* Trekking App */ = {
 			isa = PBXGroup;
 			children = (
+				D2D5F62E256E5A12003BDFD9 /* Utils */,
+				D2D5F588256E4F16003BDFD9 /* Constant */,
+				D2D5F536256E4DC1003BDFD9 /* Controllers */,
+				D2D5F54B256E4DC1003BDFD9 /* Model */,
+				D2D5F553256E4DC1003BDFD9 /* StoryBoard */,
+				D2D5F555256E4DC1003BDFD9 /* Views */,
 				D2D5F503256E4D22003BDFD9 /* AppDelegate.swift */,
 				D2D5F505256E4D22003BDFD9 /* SceneDelegate.swift */,
 				D2D5F507256E4D22003BDFD9 /* ViewController.swift */,
@@ -128,6 +239,212 @@
 			path = "Trekking AppUITests";
 			sourceTree = "<group>";
 		};
+		D2D5F536256E4DC1003BDFD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F655256E5D5C003BDFD9 /* PopUpAlertController */,
+				D2D5F537256E4DC1003BDFD9 /* DetailPostController */,
+				D2D5F539256E4DC1003BDFD9 /* MountainDetailController */,
+				D2D5F53C256E4DC1003BDFD9 /* MenuController */,
+				D2D5F53F256E4DC1003BDFD9 /* MapController */,
+				D2D5F542256E4DC1003BDFD9 /* HomeController */,
+				D2D5F545256E4DC1003BDFD9 /* AlbumController */,
+				D2D5F549256E4DC1003BDFD9 /* TabController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D2D5F537256E4DC1003BDFD9 /* DetailPostController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F538256E4DC1003BDFD9 /* DetailPostController.swift */,
+			);
+			path = DetailPostController;
+			sourceTree = "<group>";
+		};
+		D2D5F539256E4DC1003BDFD9 /* MountainDetailController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F53A256E4DC1003BDFD9 /* MountainDetailController.swift */,
+				D2D5F53B256E4DC1003BDFD9 /* MountainDetailController.xib */,
+			);
+			path = MountainDetailController;
+			sourceTree = "<group>";
+		};
+		D2D5F53C256E4DC1003BDFD9 /* MenuController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F53D256E4DC1003BDFD9 /* MenuTrekController.xib */,
+				D2D5F53E256E4DC1003BDFD9 /* MenuTrekController.swift */,
+			);
+			path = MenuController;
+			sourceTree = "<group>";
+		};
+		D2D5F53F256E4DC1003BDFD9 /* MapController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F540256E4DC1003BDFD9 /* MapController.swift */,
+				D2D5F541256E4DC1003BDFD9 /* MapController.xib */,
+			);
+			path = MapController;
+			sourceTree = "<group>";
+		};
+		D2D5F542256E4DC1003BDFD9 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F543256E4DC1003BDFD9 /* HomeTrekController.xib */,
+				D2D5F544256E4DC1003BDFD9 /* HomeTrekController.swift */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		D2D5F545256E4DC1003BDFD9 /* AlbumController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F546256E4DC1003BDFD9 /* ListImageController.swift */,
+				D2D5F547256E4DC1003BDFD9 /* AlbumController.swift */,
+				D2D5F548256E4DC1003BDFD9 /* DataDemo.swift */,
+			);
+			path = AlbumController;
+			sourceTree = "<group>";
+		};
+		D2D5F549256E4DC1003BDFD9 /* TabController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F54A256E4DC1003BDFD9 /* CustomTabController.swift */,
+			);
+			path = TabController;
+			sourceTree = "<group>";
+		};
+		D2D5F54B256E4DC1003BDFD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F54C256E4DC1003BDFD9 /* AlbumModel.swift */,
+				D2D5F54D256E4DC1003BDFD9 /* CategoryModel.swift */,
+				D2D5F54E256E4DC1003BDFD9 /* PostModel.swift */,
+				D2D5F54F256E4DC1003BDFD9 /* TrekkingModel.swift */,
+				D2D5F550256E4DC1003BDFD9 /* MountainModel.swift */,
+				D2D5F551256E4DC1003BDFD9 /* Mountain.json */,
+				D2D5F552256E4DC1003BDFD9 /* JsonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2D5F553256E4DC1003BDFD9 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F554256E4DC1003BDFD9 /* TrekStoryBoard.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D2D5F555256E4DC1003BDFD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F556256E4DC1003BDFD9 /* AlbumCollectionView */,
+				D2D5F559256E4DC1003BDFD9 /* PostItemView */,
+				D2D5F55C256E4DC1003BDFD9 /* RoundShadowView */,
+				D2D5F55E256E4DC1003BDFD9 /* ShareExperienceController */,
+				D2D5F560256E4DC1003BDFD9 /* Album */,
+				D2D5F563256E4DC1003BDFD9 /* CustomInforWindow */,
+				D2D5F5E5256E55D5003BDFD9 /* BaseController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2D5F556256E4DC1003BDFD9 /* AlbumCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F557256E4DC1003BDFD9 /* AlbumCollectionViewCell.swift */,
+				D2D5F558256E4DC1003BDFD9 /* AlbumCollectionViewCell.xib */,
+			);
+			path = AlbumCollectionView;
+			sourceTree = "<group>";
+		};
+		D2D5F559256E4DC1003BDFD9 /* PostItemView */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F55A256E4DC1003BDFD9 /* PostItemViewCell.swift */,
+				D2D5F55B256E4DC1003BDFD9 /* PostItemViewCell.xib */,
+			);
+			path = PostItemView;
+			sourceTree = "<group>";
+		};
+		D2D5F55C256E4DC1003BDFD9 /* RoundShadowView */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F55D256E4DC1003BDFD9 /* RoundShadowView.swift */,
+			);
+			path = RoundShadowView;
+			sourceTree = "<group>";
+		};
+		D2D5F55E256E4DC1003BDFD9 /* ShareExperienceController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F55F256E4DC1003BDFD9 /* ShareExperienceController.swift */,
+			);
+			path = ShareExperienceController;
+			sourceTree = "<group>";
+		};
+		D2D5F560256E4DC1003BDFD9 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F561256E4DC1003BDFD9 /* ThumbCell.swift */,
+				D2D5F562256E4DC1003BDFD9 /* GalleryFlowLayout.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		D2D5F563256E4DC1003BDFD9 /* CustomInforWindow */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F564256E4DC1003BDFD9 /* CustomInforWindowViewController.swift */,
+				D2D5F565256E4DC1003BDFD9 /* CustomInforWindow.xib */,
+			);
+			path = CustomInforWindow;
+			sourceTree = "<group>";
+		};
+		D2D5F588256E4F16003BDFD9 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F5A4256E5204003BDFD9 /* ConnectApi.swift */,
+				D2D5F629256E58F1003BDFD9 /* Contants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		D2D5F62E256E5A12003BDFD9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F62F256E5A21003BDFD9 /* SDWebImageSource.swift */,
+				D2D5F634256E5B02003BDFD9 /* ColorExtension.swift */,
+				D2D5F639256E5B54003BDFD9 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D2D5F655256E5D5C003BDFD9 /* PopUpAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				D2D5F656256E5DC1003BDFD9 /* PopupAlertController.swift */,
+				D2D5F657256E5DC1003BDFD9 /* PopUpAlertController.xib */,
+			);
+			path = PopUpAlertController;
+			sourceTree = "<group>";
+		};
+		F7BD14AD66759C67699BEAC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4928C8BC0E5C81850E21EC2 /* Pods-Trekking App.debug.xcconfig */,
+				7A7228F95DD1F86AEE5F08C1 /* Pods-Trekking App.release.xcconfig */,
+				C0309EC661968F2B3CAE0CD7 /* Pods-Trekking App-Trekking AppUITests.debug.xcconfig */,
+				5EB05F3FC9D193389DF41E3B /* Pods-Trekking App-Trekking AppUITests.release.xcconfig */,
+				87891A8F644FC0163E874D35 /* Pods-Trekking AppTests.debug.xcconfig */,
+				ED6FF213047CF95BA0293CAA /* Pods-Trekking AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +452,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2D5F52A256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking App" */;
 			buildPhases = (
+				A74218AC531E4C5C95FDFF0C /* [CP] Check Pods Manifest.lock */,
 				D2D5F4FC256E4D22003BDFD9 /* Sources */,
 				D2D5F4FD256E4D22003BDFD9 /* Frameworks */,
 				D2D5F4FE256E4D22003BDFD9 /* Resources */,
+				BBF734D930CE266823E560F8 /* [CP] Embed Pods Frameworks */,
+				809EE177B2806AB9520B2C99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +472,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2D5F52D256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking AppTests" */;
 			buildPhases = (
+				B54AC855080D93393932194C /* [CP] Check Pods Manifest.lock */,
 				D2D5F512256E4D24003BDFD9 /* Sources */,
 				D2D5F513256E4D24003BDFD9 /* Frameworks */,
 				D2D5F514256E4D24003BDFD9 /* Resources */,
@@ -170,9 +491,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2D5F530256E4D24003BDFD9 /* Build configuration list for PBXNativeTarget "Trekking AppUITests" */;
 			buildPhases = (
+				5C546F99F4ED256057C34235 /* [CP] Check Pods Manifest.lock */,
 				D2D5F51D256E4D24003BDFD9 /* Sources */,
 				D2D5F51E256E4D24003BDFD9 /* Frameworks */,
 				D2D5F51F256E4D24003BDFD9 /* Resources */,
+				92CCEB1D866F5687EE7DDF7D /* [CP] Embed Pods Frameworks */,
+				3DACF30E449D5AFD553597D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +555,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D5F578256E4DC1003BDFD9 /* Mountain.json in Resources */,
+				D2D5F56C256E4DC1003BDFD9 /* MapController.xib in Resources */,
+				D2D5F57C256E4DC1003BDFD9 /* AlbumCollectionViewCell.xib in Resources */,
+				D2D5F584256E4DC1003BDFD9 /* CustomInforWindow.xib in Resources */,
 				D2D5F510256E4D23003BDFD9 /* LaunchScreen.storyboard in Resources */,
 				D2D5F50D256E4D23003BDFD9 /* Assets.xcassets in Resources */,
+				D2D5F57E256E4DC1003BDFD9 /* PostItemViewCell.xib in Resources */,
+				D2D5F56D256E4DC1003BDFD9 /* HomeTrekController.xib in Resources */,
+				D2D5F569256E4DC1003BDFD9 /* MenuTrekController.xib in Resources */,
 				D2D5F50B256E4D22003BDFD9 /* Main.storyboard in Resources */,
+				D2D5F568256E4DC1003BDFD9 /* MountainDetailController.xib in Resources */,
+				D2D5F659256E5DC1003BDFD9 /* PopUpAlertController.xib in Resources */,
+				D2D5F57A256E4DC1003BDFD9 /* TrekStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +587,179 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DACF30E449D5AFD553597D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trekking App-Trekking AppUITests/Pods-Trekking App-Trekking AppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trekking App-Trekking AppUITests/Pods-Trekking App-Trekking AppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trekking App-Trekking AppUITests/Pods-Trekking App-Trekking AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C546F99F4ED256057C34235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trekking App-Trekking AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		809EE177B2806AB9520B2C99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trekking App/Pods-Trekking App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trekking App/Pods-Trekking App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trekking App/Pods-Trekking App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CCEB1D866F5687EE7DDF7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trekking App-Trekking AppUITests/Pods-Trekking App-Trekking AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trekking App-Trekking AppUITests/Pods-Trekking App-Trekking AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trekking App-Trekking AppUITests/Pods-Trekking App-Trekking AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74218AC531E4C5C95FDFF0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trekking App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54AC855080D93393932194C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trekking AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF734D930CE266823E560F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trekking App/Pods-Trekking App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trekking App/Pods-Trekking App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trekking App/Pods-Trekking App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2D5F4FC256E4D22003BDFD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D5F583256E4DC1003BDFD9 /* CustomInforWindowViewController.swift in Sources */,
 				D2D5F508256E4D22003BDFD9 /* ViewController.swift in Sources */,
+				D2D5F575256E4DC1003BDFD9 /* PostModel.swift in Sources */,
+				D2D5F62A256E58F1003BDFD9 /* Contants.swift in Sources */,
+				D2D5F570256E4DC1003BDFD9 /* AlbumController.swift in Sources */,
+				D2D5F658256E5DC1003BDFD9 /* PopupAlertController.swift in Sources */,
+				D2D5F579256E4DC1003BDFD9 /* JsonModel.swift in Sources */,
+				D2D5F581256E4DC1003BDFD9 /* ThumbCell.swift in Sources */,
+				D2D5F57B256E4DC1003BDFD9 /* AlbumCollectionViewCell.swift in Sources */,
+				D2D5F57F256E4DC1003BDFD9 /* RoundShadowView.swift in Sources */,
+				D2D5F635256E5B02003BDFD9 /* ColorExtension.swift in Sources */,
+				D2D5F572256E4DC1003BDFD9 /* CustomTabController.swift in Sources */,
+				D2D5F56B256E4DC1003BDFD9 /* MapController.swift in Sources */,
+				D2D5F56F256E4DC1003BDFD9 /* ListImageController.swift in Sources */,
 				D2D5F504256E4D22003BDFD9 /* AppDelegate.swift in Sources */,
+				D2D5F57D256E4DC1003BDFD9 /* PostItemViewCell.swift in Sources */,
+				D2D5F573256E4DC1003BDFD9 /* AlbumModel.swift in Sources */,
+				D2D5F577256E4DC1003BDFD9 /* MountainModel.swift in Sources */,
+				D2D5F56A256E4DC1003BDFD9 /* MenuTrekController.swift in Sources */,
+				D2D5F571256E4DC1003BDFD9 /* DataDemo.swift in Sources */,
+				D2D5F582256E4DC1003BDFD9 /* GalleryFlowLayout.swift in Sources */,
+				D2D5F567256E4DC1003BDFD9 /* MountainDetailController.swift in Sources */,
+				D2D5F63A256E5B54003BDFD9 /* Utils.swift in Sources */,
+				D2D5F5E6256E55D5003BDFD9 /* BaseController.swift in Sources */,
+				D2D5F5A5256E5204003BDFD9 /* ConnectApi.swift in Sources */,
+				D2D5F566256E4DC1003BDFD9 /* DetailPostController.swift in Sources */,
+				D2D5F574256E4DC1003BDFD9 /* CategoryModel.swift in Sources */,
+				D2D5F56E256E4DC1003BDFD9 /* HomeTrekController.swift in Sources */,
+				D2D5F580256E4DC1003BDFD9 /* ShareExperienceController.swift in Sources */,
+				D2D5F630256E5A21003BDFD9 /* SDWebImageSource.swift in Sources */,
+				D2D5F576256E4DC1003BDFD9 /* TrekkingModel.swift in Sources */,
 				D2D5F506256E4D22003BDFD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +933,7 @@
 		};
 		D2D5F52B256E4D24003BDFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4928C8BC0E5C81850E21EC2 /* Pods-Trekking App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +953,7 @@
 		};
 		D2D5F52C256E4D24003BDFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7228F95DD1F86AEE5F08C1 /* Pods-Trekking App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +973,7 @@
 		};
 		D2D5F52E256E4D24003BDFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87891A8F644FC0163E874D35 /* Pods-Trekking AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +996,7 @@
 		};
 		D2D5F52F256E4D24003BDFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6FF213047CF95BA0293CAA /* Pods-Trekking AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +1019,7 @@
 		};
 		D2D5F531256E4D24003BDFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0309EC661968F2B3CAE0CD7 /* Pods-Trekking App-Trekking AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +1040,7 @@
 		};
 		D2D5F532256E4D24003BDFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB05F3FC9D193389DF41E3B /* Pods-Trekking App-Trekking AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

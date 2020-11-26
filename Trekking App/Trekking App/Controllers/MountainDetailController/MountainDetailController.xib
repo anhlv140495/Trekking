@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MountainDetailController" customModule="Sổ_tay" customModuleProvider="target">
+            <connections>
+                <outlet property="imgSlideShow" destination="mMl-UY-L3k" id="jmt-SJ-vrP"/>
+                <outlet property="lbContent" destination="a3z-R3-V5H" id="eQy-bR-MW9"/>
+                <outlet property="lbDifficult" destination="mkh-tx-vbD" id="vey-Pu-3xr"/>
+                <outlet property="lbHeight" destination="my4-h5-paT" id="6mN-M6-IAo"/>
+                <outlet property="lbLocation" destination="BPG-RB-Gpm" id="ToQ-xU-NZA"/>
+                <outlet property="lbTime" destination="nJe-AG-zaC" id="Jb3-gH-AlE"/>
+                <outlet property="lbTitle" destination="Uad-vB-bOo" id="tPE-vz-uPg"/>
+                <outlet property="view" destination="iN0-l3-epB" id="nnq-Wz-9Ad"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cu4-FJ-69D">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBg-jg-xfj">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="876.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ví trị:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyF-IO-WS8">
+                                    <rect key="frame" x="10" y="291" width="44" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Núi Tả Liên (còn gọi là núi Cổ Trâu) thuộc xã Tả Lèng, huyện Tam Đường, Lai Châu." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPG-RB-Gpm">
+                                    <rect key="frame" x="10" y="317" width="355" height="38.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thời gian:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUi-K1-2nS">
+                                    <rect key="frame" x="10" y="422" width="80.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 ngày 1 đêm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJe-AG-zaC">
+                                    <rect key="frame" x="10" y="448" width="101.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ĐỘ KHÓ:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Z0-JT-cLi">
+                                    <rect key="frame" x="10" y="479" width="73" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trung bình – khó" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkh-tx-vbD">
+                                    <rect key="frame" x="10" y="505" width="127.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miêu tả:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh6-80-BYJ">
+                                    <rect key="frame" x="10" y="536" width="65.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3z-R3-V5H">
+                                    <rect key="frame" x="10" y="562" width="355" height="304.5"/>
+                                    <string key="text">Núi Tả Liên (còn gọi là núi Cổ Trâu) thuộc xã Tả Lèng, huyện Tam Đường, Lai Châu. Ngọn núi có độ cao 2.996 m so với mặt nước biển và thuộc top những đỉnh cao nhất Việt Nam.Khung cảnh núi non hùng vỹ, thảm thực vật rừng nguyên sinh của dãy Tả Liên Sơn với những cây cổ thụ lớn bằng vài người ôm, dây leo quấn quanh phủ đầy rêu phong, như một khu vườn cổ tích đã thu hút các bước chân ưa khám phá.
+
+Với hệ thực vật phong phú, rừng già nguyên sinh và nhiều loài hoa dại nở, núi Tả Liên là một bí ẩn với nhiều người, kể cả dân leo núi chuyên nghiệp.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mMl-UY-L3k" customClass="ImageSlideshow" customModule="ImageSlideshow">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="250" id="Eqr-FI-D4p"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tả Liên Sơn(Lai Châu)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uad-vB-bOo">
+                                    <rect key="frame" x="0.0" y="260" width="375" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Độ Cao:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLv-aV-UTx">
+                                    <rect key="frame" x="10" y="365.5" width="64.5" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="my4-h5-paT">
+                                    <rect key="frame" x="10" y="391.5" width="41.5" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="mkh-tx-vbD" firstAttribute="top" secondItem="7Z0-JT-cLi" secondAttribute="bottom" constant="5" id="0NP-Em-Zuc"/>
+                                <constraint firstItem="nJe-AG-zaC" firstAttribute="top" secondItem="tUi-K1-2nS" secondAttribute="bottom" constant="5" id="7OS-WF-FLQ"/>
+                                <constraint firstAttribute="trailing" secondItem="a3z-R3-V5H" secondAttribute="trailing" constant="10" id="AI5-69-hC8"/>
+                                <constraint firstItem="DyF-IO-WS8" firstAttribute="top" secondItem="Uad-vB-bOo" secondAttribute="bottom" constant="10" id="Cnw-kl-Rvl"/>
+                                <constraint firstItem="gh6-80-BYJ" firstAttribute="top" secondItem="mkh-tx-vbD" secondAttribute="bottom" constant="10" id="DSj-6x-VeF"/>
+                                <constraint firstAttribute="bottom" secondItem="a3z-R3-V5H" secondAttribute="bottom" constant="10" id="Ddc-6E-fVv"/>
+                                <constraint firstItem="a3z-R3-V5H" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="DkC-k7-4vo"/>
+                                <constraint firstItem="Uad-vB-bOo" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" id="Jet-zO-O0l"/>
+                                <constraint firstItem="tUi-K1-2nS" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="OiA-r6-vQ8"/>
+                                <constraint firstItem="mMl-UY-L3k" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" id="R4n-3K-4AC"/>
+                                <constraint firstItem="DyF-IO-WS8" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="U3Z-nY-OWP"/>
+                                <constraint firstItem="bLv-aV-UTx" firstAttribute="top" secondItem="BPG-RB-Gpm" secondAttribute="bottom" constant="10" id="UZm-Hi-q2x"/>
+                                <constraint firstItem="gh6-80-BYJ" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="Z3H-7H-S8h"/>
+                                <constraint firstAttribute="trailing" secondItem="BPG-RB-Gpm" secondAttribute="trailing" constant="10" id="cMa-68-dBe"/>
+                                <constraint firstItem="my4-h5-paT" firstAttribute="top" secondItem="bLv-aV-UTx" secondAttribute="bottom" constant="5" id="ckR-tR-r5K"/>
+                                <constraint firstItem="tUi-K1-2nS" firstAttribute="top" secondItem="my4-h5-paT" secondAttribute="bottom" constant="10" id="d2V-Hz-fVa"/>
+                                <constraint firstItem="7Z0-JT-cLi" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="f6b-vr-eO0"/>
+                                <constraint firstItem="bLv-aV-UTx" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="fkv-uM-8A2"/>
+                                <constraint firstItem="nJe-AG-zaC" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="li1-fe-LEp"/>
+                                <constraint firstItem="my4-h5-paT" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="moJ-dR-T3C"/>
+                                <constraint firstItem="mkh-tx-vbD" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="ovT-NQ-pd0"/>
+                                <constraint firstItem="a3z-R3-V5H" firstAttribute="top" secondItem="gh6-80-BYJ" secondAttribute="bottom" constant="5" id="rKR-U2-dPX"/>
+                                <constraint firstAttribute="trailing" secondItem="mMl-UY-L3k" secondAttribute="trailing" id="sfu-ex-06z"/>
+                                <constraint firstItem="Uad-vB-bOo" firstAttribute="top" secondItem="mMl-UY-L3k" secondAttribute="bottom" constant="10" id="t8D-J8-cFz"/>
+                                <constraint firstAttribute="trailing" secondItem="Uad-vB-bOo" secondAttribute="trailing" id="usP-ft-JI5"/>
+                                <constraint firstItem="BPG-RB-Gpm" firstAttribute="leading" secondItem="OBg-jg-xfj" secondAttribute="leading" constant="10" id="vIE-MG-Mij"/>
+                                <constraint firstItem="mMl-UY-L3k" firstAttribute="top" secondItem="OBg-jg-xfj" secondAttribute="top" id="vxk-Ef-wW1"/>
+                                <constraint firstItem="7Z0-JT-cLi" firstAttribute="top" secondItem="nJe-AG-zaC" secondAttribute="bottom" constant="10" id="w5J-p6-YxR"/>
+                                <constraint firstItem="BPG-RB-Gpm" firstAttribute="top" secondItem="DyF-IO-WS8" secondAttribute="bottom" constant="5" id="xSx-TX-bTY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="OBg-jg-xfj" firstAttribute="leading" secondItem="cu4-FJ-69D" secondAttribute="leading" id="Fg2-Hs-W8U"/>
+                        <constraint firstAttribute="trailing" secondItem="OBg-jg-xfj" secondAttribute="trailing" id="Ifa-6I-tx6"/>
+                        <constraint firstAttribute="bottom" secondItem="OBg-jg-xfj" secondAttribute="bottom" constant="20" symbolic="YES" id="hnv-vx-60I"/>
+                        <constraint firstItem="OBg-jg-xfj" firstAttribute="top" secondItem="cu4-FJ-69D" secondAttribute="top" id="pdD-So-0pH"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="7Eb-oy-jqi"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="zd0-7d-gDt"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="OBg-jg-xfj" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="20O-cX-vcP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cu4-FJ-69D" secondAttribute="trailing" id="95F-NR-78U"/>
+                <constraint firstItem="cu4-FJ-69D" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="IgZ-du-1uX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="cu4-FJ-69D" secondAttribute="bottom" id="rFd-n3-Faz"/>
+                <constraint firstItem="cu4-FJ-69D" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="w9y-sq-kf9"/>
+            </constraints>
+            <point key="canvasLocation" x="96.799999999999997" y="49.925037481259373"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

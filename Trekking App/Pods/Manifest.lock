@@ -1,0 +1,92 @@
+PODS:
+  - ACProgressHUD-Swift (1.4)
+  - ActionSheetPicker-3.0 (2.7.1)
+  - Alamofire (5.2.2)
+  - BetterSegmentedControl (2.0.1)
+  - DropDown (2.3.13)
+  - DynamicBlurView (4.1.0)
+  - Gallery (2.4.0)
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.10.0):
+    - GoogleMaps/Base (= 3.10.0)
+  - ImageSlideshow (1.9.1):
+    - ImageSlideshow/Core (= 1.9.1)
+  - ImageSlideshow/Core (1.9.1)
+  - ImageViewer.swift (3.3.3)
+  - ImageViewer.swift/Fetcher (3.3.3):
+    - SDWebImage
+  - LKAlertController (1.12.2)
+  - ObjectMapper (4.2.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - SDWebImage (5.9.2):
+    - SDWebImage/Core (= 5.9.2)
+  - SDWebImage/Core (5.9.2)
+  - SnapKit (5.0.1)
+  - SVPinView (1.0.11)
+
+DEPENDENCIES:
+  - ACProgressHUD-Swift
+  - ActionSheetPicker-3.0
+  - Alamofire
+  - BetterSegmentedControl
+  - DropDown
+  - Gallery
+  - GoogleMaps
+  - GooglePlaces
+  - ImageSlideshow (~> 1.6)
+  - ImageViewer.swift (~> 3.0)
+  - ImageViewer.swift/Fetcher (~> 3.0)
+  - LKAlertController
+  - ObjectMapper
+  - PopupDialog
+  - SDWebImage
+  - SnapKit
+  - SVPinView (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - ACProgressHUD-Swift
+    - ActionSheetPicker-3.0
+    - Alamofire
+    - BetterSegmentedControl
+    - DropDown
+    - DynamicBlurView
+    - Gallery
+    - GoogleMaps
+    - GooglePlaces
+    - ImageSlideshow
+    - ImageViewer.swift
+    - LKAlertController
+    - ObjectMapper
+    - PopupDialog
+    - SDWebImage
+    - SnapKit
+    - SVPinView
+
+SPEC CHECKSUMS:
+  ACProgressHUD-Swift: 52a40fe3377959cfe84316dc0cf523c5d790bbe8
+  ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  Gallery: b7fc1aeb68a39ad6d2c423574750196bf9b25e5c
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  GooglePlaces: 9a6f5f3a0c88da2aa1bf7426a65d3e004f5e69a1
+  ImageSlideshow: 67184be896a28472bd3b906c33ce4e0734aa3d22
+  ImageViewer.swift: 3dbb74a68ac4bdd6cdd585b3128dae17ccd733e5
+  LKAlertController: 10c7e8627e5d4757d03b4f53469f35ded14c378f
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVPinView: 9b538d0ba68cdb092afe4f0f67ec84cbed079466
+
+PODFILE CHECKSUM: d062bd4499983a42f00612ee0781fd921bb98d65
+
+COCOAPODS: 1.10.0.rc.1

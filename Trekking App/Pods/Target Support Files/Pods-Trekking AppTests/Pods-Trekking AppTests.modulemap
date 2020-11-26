@@ -1,0 +1,6 @@
+framework module Pods_Trekking_AppTests {
+  umbrella header "Pods-Trekking AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

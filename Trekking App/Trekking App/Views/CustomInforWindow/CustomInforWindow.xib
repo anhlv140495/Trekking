@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Osr-Ka-1nS" customClass="CustomInforWindowViewController" customModule="Trợ_giúp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_demo_phusilung" translatesAutoresizingMaskIntoConstraints="NO" id="RQR-zo-d3G">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="lnV-J8-SSr"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phu Si Lung (Lai Châu)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5d0-qU-tHf">
+                    <rect key="frame" x="5" y="150" width="290" height="19.333333333333343"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Độ khó:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3K-HT-gIB">
+                    <rect key="frame" x="9.9999999999999964" y="239" width="56.666666666666657" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_rating_five_star" translatesAutoresizingMaskIntoConstraints="NO" id="g2O-Zl-cmg">
+                    <rect key="frame" x="68.666666666666671" y="237" width="90.000000000000014" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="7Lw-ec-MlJ"/>
+                        <constraint firstAttribute="height" constant="20" id="9kJ-Pi-OGl"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Độ cao: 3000m" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcS-Y5-S1o">
+                    <rect key="frame" x="10" y="267" width="113" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ro2-8m-jHr">
+                    <rect key="frame" x="10" y="174.33333333333334" width="280" height="39.666666666666657"/>
+                    <string key="text">Pu Si Lung hay Phu Si Lùng là ngọn núi nằm ở biên giới Việt Nam và Trung Quốc, cao 3083 m. Phần Việt Nam của núi thuộc xã Pa Vệ Sử, huyện Mường Tè, tỉnh Lai Châu. </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkf-Jb-nA1">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                    <connections>
+                        <action selector="backgroundButton:" destination="Osr-Ka-1nS" eventType="touchUpInside" id="JWL-g4-XxL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0U2-8A-6VY">
+                    <rect key="frame" x="190" y="260" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.79215686269999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="ShU-ru-KAs"/>
+                        <constraint firstAttribute="height" constant="30" id="xpW-uJ-db5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Chi tiết">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="tapInfoButton:" destination="Osr-Ka-1nS" eventType="touchUpInside" id="8td-GM-WeA"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="g2O-Zl-cmg" firstAttribute="centerY" secondItem="m3K-HT-gIB" secondAttribute="centerY" constant="-1" id="2Z7-pT-Rva"/>
+                <constraint firstItem="ro2-8m-jHr" firstAttribute="leading" secondItem="Osr-Ka-1nS" secondAttribute="leading" constant="10" id="2sn-gJ-Ikq"/>
+                <constraint firstItem="g2O-Zl-cmg" firstAttribute="leading" secondItem="m3K-HT-gIB" secondAttribute="trailing" constant="2" id="32a-H9-Khn"/>
+                <constraint firstAttribute="bottom" secondItem="0U2-8A-6VY" secondAttribute="bottom" constant="10" id="64S-EW-htr"/>
+                <constraint firstAttribute="bottom" secondItem="RcS-Y5-S1o" secondAttribute="bottom" constant="15" id="7pN-5F-Dba"/>
+                <constraint firstItem="5d0-qU-tHf" firstAttribute="top" secondItem="RQR-zo-d3G" secondAttribute="bottom" constant="10" id="92a-Gf-JkW"/>
+                <constraint firstAttribute="trailing" secondItem="ro2-8m-jHr" secondAttribute="trailing" constant="10" id="9Kd-8p-8ED"/>
+                <constraint firstItem="ro2-8m-jHr" firstAttribute="top" secondItem="5d0-qU-tHf" secondAttribute="bottom" constant="5" id="9rq-zn-Eyi"/>
+                <constraint firstItem="5d0-qU-tHf" firstAttribute="centerX" secondItem="RQR-zo-d3G" secondAttribute="centerX" id="Gp7-BZ-env"/>
+                <constraint firstAttribute="trailing" secondItem="0U2-8A-6VY" secondAttribute="trailing" constant="10" id="Hhi-Jr-PV4"/>
+                <constraint firstAttribute="bottom" secondItem="xkf-Jb-nA1" secondAttribute="bottom" id="ILn-s1-8i2"/>
+                <constraint firstAttribute="trailing" secondItem="xkf-Jb-nA1" secondAttribute="trailing" id="M0L-PN-GLS"/>
+                <constraint firstItem="RQR-zo-d3G" firstAttribute="top" secondItem="Osr-Ka-1nS" secondAttribute="top" id="NSc-9E-PfT"/>
+                <constraint firstItem="5d0-qU-tHf" firstAttribute="leading" secondItem="Osr-Ka-1nS" secondAttribute="leading" constant="5" id="PeM-vg-oKH"/>
+                <constraint firstAttribute="trailing" secondItem="RQR-zo-d3G" secondAttribute="trailing" id="Yju-PF-Ght"/>
+                <constraint firstItem="xkf-Jb-nA1" firstAttribute="top" secondItem="Osr-Ka-1nS" secondAttribute="top" id="Zz9-b8-dDO"/>
+                <constraint firstItem="m3K-HT-gIB" firstAttribute="leading" secondItem="Osr-Ka-1nS" secondAttribute="leading" constant="10" id="dX1-Lq-4km"/>
+                <constraint firstItem="RQR-zo-d3G" firstAttribute="centerX" secondItem="Osr-Ka-1nS" secondAttribute="centerX" id="exG-7H-HzQ"/>
+                <constraint firstItem="xkf-Jb-nA1" firstAttribute="leading" secondItem="Osr-Ka-1nS" secondAttribute="leading" id="fjc-i6-gT7"/>
+                <constraint firstItem="RQR-zo-d3G" firstAttribute="leading" secondItem="Osr-Ka-1nS" secondAttribute="leading" id="p78-u2-7bT"/>
+                <constraint firstItem="RcS-Y5-S1o" firstAttribute="top" secondItem="m3K-HT-gIB" secondAttribute="bottom" constant="10" id="pVf-qO-QwP"/>
+                <constraint firstItem="RcS-Y5-S1o" firstAttribute="leading" secondItem="Osr-Ka-1nS" secondAttribute="leading" constant="10" id="q7c-ho-s6G"/>
+                <constraint firstItem="5d0-qU-tHf" firstAttribute="centerX" secondItem="Osr-Ka-1nS" secondAttribute="centerX" id="wra-ea-bfX"/>
+                <constraint firstAttribute="trailing" secondItem="5d0-qU-tHf" secondAttribute="trailing" constant="5" id="zzf-Gq-BvU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderClr">
+                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imgInfo" destination="RQR-zo-d3G" id="3L7-LP-XiO"/>
+                <outlet property="imgRatingStar" destination="g2O-Zl-cmg" id="K6D-Wn-hX5"/>
+                <outlet property="lbContent" destination="ro2-8m-jHr" id="aIS-PV-h5c"/>
+                <outlet property="lbHeight" destination="RcS-Y5-S1o" id="ea3-9u-Qu3"/>
+                <outlet property="lblTittile" destination="5d0-qU-tHf" id="ukg-E8-dA4"/>
+            </connections>
+            <point key="canvasLocation" x="-3600" y="-357.63546798029557"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_demo_phusilung" width="298.66665649414062" height="173.33332824707031"/>
+        <image name="ic_rating_five_star" width="174" height="35.666667938232422"/>
+    </resources>
+</document>

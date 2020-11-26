@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupAlertController" customModule="VayMuonP4New" customModuleProvider="target">
+            <connections>
+                <outlet property="imgIcon" destination="JMz-DP-k4I" id="t7X-vR-I2a"/>
+                <outlet property="lbMessage" destination="4ON-gd-vLw" id="4nO-hb-gSf"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Of6-ML-d9W"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="324"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JMz-DP-k4I">
+                    <rect key="frame" x="145.5" y="40" width="84" height="82"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="82" id="i4x-pI-7R5"/>
+                        <constraint firstAttribute="width" constant="84" id="zVI-pm-MDL"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label ádfas fasd ádf ádf ád fasd fads fads fasd fasd fads fasd fsd fas fafasf. ádas dá dá dá dá đá á đâsd ádasd ád ád sa" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ON-gd-vLw">
+                    <rect key="frame" x="15" y="154" width="345" height="74"/>
+                    <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                    <color key="textColor" red="0.99607843137254903" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ob-QK-A3w">
+                    <rect key="frame" x="24" y="260" width="327" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="M05-tQ-Has"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
+                    <state key="normal" title="Xác nhận">
+                        <color key="titleColor" red="0.31372549019607843" green="0.33333333333333331" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="tapOk:" destination="-1" eventType="touchUpInside" id="YbQ-ws-23K"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1Ob-QK-A3w" secondAttribute="trailing" constant="24" id="4n3-9f-5JL"/>
+                <constraint firstItem="4ON-gd-vLw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="5SF-f6-LOd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1Ob-QK-A3w" secondAttribute="bottom" constant="24" id="DpU-K8-odh"/>
+                <constraint firstItem="JMz-DP-k4I" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="H4n-8m-MXZ"/>
+                <constraint firstItem="1Ob-QK-A3w" firstAttribute="top" secondItem="4ON-gd-vLw" secondAttribute="bottom" constant="32" id="OD1-Mc-ghA"/>
+                <constraint firstItem="4ON-gd-vLw" firstAttribute="top" secondItem="JMz-DP-k4I" secondAttribute="bottom" constant="32" id="Qbp-bq-wAi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4ON-gd-vLw" secondAttribute="trailing" constant="15" id="g5F-RH-abV"/>
+                <constraint firstItem="1Ob-QK-A3w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="xJB-Gc-yNV"/>
+                <constraint firstItem="JMz-DP-k4I" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="yTc-V2-Js3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="138.40000000000001" y="139.43028485757122"/>
+        </view>
+    </objects>
+</document>
