@@ -11,7 +11,7 @@ class PostItemViewCell: UITableViewCell {
     @IBOutlet weak var lbDate: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        // Initialization code đâsdas
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
