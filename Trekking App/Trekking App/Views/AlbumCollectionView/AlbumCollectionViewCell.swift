@@ -22,7 +22,7 @@ class AlbumCollectionViewCell: UICollectionViewCell {
 //        viewContent.layer.shadowOpacity = 0.5
 //        viewContent.layer.shadowRadius = 3
 //        viewContent.layer.cornerRadius = 8
-//        viewContent.addViewBorder(borderColor: #colorLiteral(red: 0.6, green: 0.6, blue: 0.6, alpha: 1), borderWith: 1.0, borderCornerRadius: 5)
+//        viewContent.addViewBorder(borderColor: #colorLiteral(red: 0.6, green: 0.6, blue: 0.6, alpha: 1), borderWith: 1.0, borderCornerRadius: 5)///
 
         
     }
